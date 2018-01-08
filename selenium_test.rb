@@ -24,10 +24,10 @@ class SeleniumTest
   private
   def login_github
     email = driver.find_element name: "login"
-    email.send_keys "duc11t3bk@gmail.com"
+    email.send_keys ""
 
     password = driver.find_element name: "password"
-    password.send_keys "minhduc2391993"
+    password.send_keys ""
 
     submit = driver.find_element name: "commit"
     submit.click
